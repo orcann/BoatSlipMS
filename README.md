@@ -19,10 +19,13 @@ npm install -g typescript
 
 npm install @types/node
 
+##testing modules
+
 npm install mocha
 npm install chai
+npm install chai-http
 
-npm i -D @types/jest
+
 
 }
 
@@ -61,6 +64,8 @@ format:
 "Message": ”Boat slip ‘{slip-number}’ is currently vacant”,
 }
 
+
+I am having issues with the imports of my tests libraries mainly the chai libraries due to a system bug on my computer so I could not include a working version at this moment
 
 
 
