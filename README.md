@@ -19,7 +19,7 @@ npm install -g typescript
 
 npm install @types/node
 
-npm install mock-http-server
+npm install mocha
 
 npm i -D @types/jest
 
