@@ -20,6 +20,7 @@ npm install -g typescript
 npm install @types/node
 
 npm install mocha
+npm install chai
 
 npm i -D @types/jest
 
