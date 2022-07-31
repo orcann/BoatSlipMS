@@ -4,6 +4,17 @@
 # BoatSlipMS
 API application that models a marina’s boat slip monitoring system for a group of three boat slips.
 
+For this Project I created a rest API service using native typescript and Node.js only, without Express
+
+I decided upon this design to familiarize myself with writing code for typescript backend since I am more familiar with using typescript in front applications such as angular
+
+The designs are pretty straightforward the get request will just return the json array of 3 boat-slip objects the initial file should have all the vessel names empty and vacant set to true
+
+post requests was simple when you make a request you pass in a json arguement with a vesselname and the function will parse that arguement and search for the first index of an available boat-slip where the vacancy is true then it will set that boatslip vessel name to the inputed value and return the slipnumber in the output success message
+
+put requests will parse the url string for the slipnumber parameter and search through the list of boat-slip objects for the matching case and will change the value of that boat-slips vacancy to true and set the vessel name to false
+for the url string I hardcoded each of the different options since my original plan of using a regax match case to parse the slip-number for url params was return incorrect values due to time constraints I could not get a quick fix in time. 
+
 Steps to run ensure you have a directory created to store the project
 
 Once you are in the project directory run the following commands to ensure you have all the dependencies installed 
