@@ -15,6 +15,8 @@ npm install -D typescript
 npm install -g typescript
 npm install @types/node
 
+npm install mock-http-server
+
 }
 
 once you have all the dependcies installed or already initialize the project you can start it using 
