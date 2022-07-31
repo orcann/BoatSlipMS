@@ -8,14 +8,20 @@ Once you are in the project directory run the following commands to ensure you h
 {
 
 npm install
-npm init -y 
+
+npm init -y
+
 npm install -D typescript 
 
 ##if you dont already have ts installed globably on your computer
+
 npm install -g typescript
+
 npm install @types/node
 
 npm install mock-http-server
+
+npm i -D @types/jest
 
 }
 
