@@ -35,7 +35,9 @@ npm install chai-http
 }
 
 once you have all the dependcies installed or already initialize the project you can start it using 
+
 the "npm start" Command 
+
 the local gateway url will be "http://localhost:8080/boat-slips"
 
 To make POSTS/PUT/GET requests use postman testing services and ensure your environment is set to localhost with the correct url
