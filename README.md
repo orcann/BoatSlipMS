@@ -6,6 +6,7 @@ Steps to run ensure you have a directory created to store the project
 Once you are in the project directory run the following commands to ensure you have all the dependencies installed 
 ##to initialize the project
 {
+
 npm install
 npm init -y 
 npm install -D typescript 
