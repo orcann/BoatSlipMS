@@ -1,3 +1,6 @@
+@Author: Christopher Lee
+@Date: 7/31/22
+
 # BoatSlipMS
 API application that models a marina’s boat slip monitoring system for a group of three boat slips.
 
