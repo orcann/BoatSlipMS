@@ -25,7 +25,9 @@ npm install @types/node
 ##testing modules
 
 npm install mocha
+
 npm install chai
+
 npm install chai-http
 
 
